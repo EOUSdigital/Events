@@ -128,33 +128,3 @@ function changeText() {
 function resetText() {
     messageB.textContent = originalText;
 }
-
-
-
-
-/*
-// Wait for the DOM to be fully loaded
-document.addEventListener("DOMContentLoaded", () => {
-    const message = document.getElementById("message");
-    const changeBtn = document.getElementById("changeBtn");
-
-    const newMessage = document.getElementById("newMessage");
-    const changeTextBtn = document.getElementById("changeText");
-    const resetTextBtn = document.getElementById("resetText");
-
-    // Hero button: change message text
-    changeBtn.addEventListener("click", () => {
-        message.textContent = "Event triggered! 🎉";
-    });
-
-    // Reinforce section: change text
-    changeTextBtn.addEventListener("click", () => {
-        newMessage.textContent = "The text has been changed!";
-    });
-
-    // Reinforce section: reset text
-    resetTextBtn.addEventListener("click", () => {
-        newMessage.textContent = "Hello";
-    });
-});
-*/
