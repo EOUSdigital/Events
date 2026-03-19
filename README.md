@@ -181,12 +181,6 @@ function resetText() {
 
 ------------------------------------------------------------------------
 
-## 🚀 Next Step
-
-➡️ Module 08 -- Lesson 02: Event Listeners
-
-------------------------------------------------------------------------
-
 ## 💬 Reflection
 
 Why must we pass a function reference instead of calling it immediately?
